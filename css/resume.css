@@ -1,0 +1,166 @@
+/* <![CDATA[ */
+
+/*
+##################################################
+#                                                #
+#       Blood Sweat & Code (& Rock'N'Roll)       #
+#      Thanx for looking at the source code      #
+#                                                #
+#                eosgarden © 2010                #
+#                                                #
+##################################################
+*/
+
+DIV.frame-content DIV.resume-box {
+    margin:                 0px;
+    padding:                1px;
+    border:                 solid 1px #EDEDED;
+    margin-bottom:          10px;
+    padding-bottom:         10px;
+}
+
+DIV.frame-content DIV.resume-row {
+    overflow:               hidden;
+    height:                 100%;
+    margin:                 0px;
+    padding:                0px;
+}
+
+DIV.frame-content DIV.resume-col-left {
+    float:                  left;
+    margin:                 0px;
+    padding:                0px;
+    width:                  175px;
+    text-align:             left;
+    font-weight:            bold;
+    border-bottom:          solid 1px #EDEDED;
+    padding-bottom:         5px;
+    margin-left:            10px;
+    margin-top:             10px;
+    margin-right:           50px;
+}
+
+DIV.frame-content DIV.resume-col-right {
+    float:                  left;
+    margin:                 0px;
+    padding:                0px;
+    width:                  560px;
+    text-align:             left;
+    margin-top:             10px;
+}
+
+DIV.frame-content DIV.resume-col-right UL {
+    margin:                 0px;
+    padding:                0px;
+    margin-left:            15px;
+}
+
+DIV.frame-content DIV.resume-col-right LI {
+    margin:                 0px;
+    padding:                0px;
+}
+
+DIV.frame-content DIV.resume-box H5 {
+    background-color:       #EDEDED;
+    padding:                10px;
+}
+
+DIV.frame-content DIV.cef-header-box {
+    margin:                 0px;
+    padding:                5px;
+    background-color:       #EDEDED;
+}
+
+DIV.frame-content DIV.cef-header-box DIV.cef-row {
+    overflow:               hidden;
+    height:                 100%;
+    margin:                 0px;
+    padding:                0px;
+}
+
+DIV.frame-content DIV.cef-header-box DIV.cef-col-1,
+DIV.frame-content DIV.cef-header-box DIV.cef-col-2,
+DIV.frame-content DIV.cef-header-box DIV.cef-col-3 {
+    float:                  left;
+    margin:                 0px;
+    padding:                0px;
+    width:                  220px;
+}
+
+DIV.frame-content DIV.cef-header-box DIV.cef-col-4 {
+    float:                  left;
+    margin:                 0px;
+    padding:                0px;
+    width:                  110px;
+}
+
+DIV.frame-content DIV.cef-box {
+    margin:                 0px;
+    padding:                0px;
+}
+
+DIV.frame-content DIV.cef-box DIV.cef-row {
+    overflow:               hidden;
+    height:                 100%;
+    margin:                 0px;
+    padding:                0px;
+    border-top:             solid 1px #EDEDED;
+    padding:                5px;
+    font-size:              12px;
+}
+
+DIV.frame-content DIV.cef-box DIV.cef-col-1 {
+    float:                  left;
+    margin:                 0px;
+    padding:                0px;
+    width:                  220px;
+}
+
+DIV.frame-content DIV.cef-box DIV.cef-col-2,
+DIV.frame-content DIV.cef-box DIV.cef-col-3,
+DIV.frame-content DIV.cef-box DIV.cef-col-4,
+DIV.frame-content DIV.cef-box DIV.cef-col-5 {
+    float:                  left;
+    margin:                 0px;
+    padding:                0px;
+    width:                  110px;
+}
+
+DIV.frame-content DIV.cef-box DIV.cef-col-6 {
+    float:                  left;
+    margin:                 0px;
+    padding:                0px;
+    width:                  100px;
+}
+
+DIV.frame-content DIV.cef-native-box {
+    margin:                 0px;
+    padding:                0px;
+    background-color:       #EDEDED;
+    margin-bottom:          1px;
+}
+
+DIV.frame-content DIV.cef-native-box DIV.cef-row {
+    overflow:               hidden;
+    height:                 100%;
+    margin:                 0px;
+    padding:                0px;
+    border-bottom:          solid 1px #EDEDED;
+    padding:                5px;
+}
+
+DIV.frame-content DIV.cef-native-box DIV.cef-col-1 {
+    float:                  left;
+    margin:                 0px;
+    padding:                0px;
+    width:                  220px;
+}
+
+DIV.frame-content DIV.cef-native-box DIV.cef-col-2 {
+    float:                  left;
+    margin:                 0px;
+    padding:                0px;
+    width:                  550px;
+}
+
+/* ]]> */

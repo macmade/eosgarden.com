@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+	lang="en"
+	root="eosgarden"
+	keywords="webstart, mamp, mamp-pro, alternative, xampp, objective-c, cocoa, iphone, ipad, ios, mobile, software, object-oriented, programming, mac, osx, xcode, php, typo3, assembly, magic, makefile, memdebug, propedit, xeos, development switzerland, macmade, gadina, jean-david"
+	description="eosgarden: software development for Mac, iOS, Linux - expertise in C, Objective-C, Cocoa, PHP"
+>
+	<products>
+		<title>Products</title>
+		<sub>
+			<webstart>
+				<title>WebStart</title>
+				<sub>
+					<overview>
+						<title>Overview</title>
+					</overview>
+					<features>
+						<title>Features</title>
+						<sub>
+							<apache2>
+								<title>Apache 2</title>
+								<anchor>feature</anchor>
+							</apache2>
+							<mysql>
+								<title>MySQL</title>
+								<anchor>feature</anchor>
+							</mysql>
+							<openldap>
+								<title>OpenLDAP</title>
+								<anchor>feature</anchor>
+							</openldap>
+							<php>
+								<title>PHP 4 &amp; 5</title>
+								<anchor>feature</anchor>
+							</php>
+							<multiple-sites>
+								<title>Multiple sites</title>
+								<anchor>feature</anchor>
+							</multiple-sites>
+							<scm>
+								<title>SCM</title>
+								<anchor>feature</anchor>
+							</scm>
+							<cms-ready>
+								<title>CMS ready</title>
+								<anchor>feature</anchor>
+							</cms-ready>
+							<dyndns>
+								<title>DynDNS</title>
+								<anchor>feature</anchor>
+							</dyndns>
+							<updates>
+								<title>Stay updated</title>
+								<anchor>feature</anchor>
+							</updates>
+						</sub>
+					</features>
+					<demo>
+						<title>Demo</title>
+					</demo>
+					<included-software>
+						<title>Included Software</title>
+					</included-software>
+					<download>
+						<title>Download</title>
+					</download>
+					<buy>
+						<title>Buy now</title>
+					</buy>
+				</sub>
+			</webstart>
+			<manual>
+			    <title>Manual</title>
+				<sub>
+					<overview>
+						<title>Overview</title>
+					</overview>
+				</sub>
+			</manual>
+			<autopurge>
+			    <title>AutoPurge</title>
+				<sub>
+					<overview>
+						<title>Overview</title>
+					</overview>
+				</sub>
+			</autopurge>
+			<sostatus>
+			    <title>SOStatus</title>
+				<sub>
+					<overview>
+						<title>Overview</title>
+					</overview>
+				</sub>
+			</sostatus>
+			<flash-pro>
+			    <title>Flash Pro</title>
+				<sub>
+					<overview>
+						<title>Overview</title>
+					</overview>
+				</sub>
+			</flash-pro>
+		</sub>
+	</products>
+	<freeware>
+		<title>Freeware</title>
+		<sub>
+			<propedit>
+				<title>PropEdit</title>
+				<sub>
+					<overview>
+						<title>Overview</title>
+					</overview>
+					<download>
+						<title>Download</title>
+					</download>
+					<buy>
+						<title>Buy Pro version</title>
+					</buy>
+				</sub>
+			</propedit>
+			<application-state-cleaner>
+				<title>Application State Cleaner</title>
+				<sub>
+					<overview>
+						<title>Overview</title>
+					</overview>
+					<download>
+						<title>Download</title>
+					</download>
+				</sub>
+			</application-state-cleaner>
+			<webstart-light>
+				<title>WebStart Light</title>
+				<sub>
+					<overview>
+						<title>Overview</title>
+					</overview>
+					<download>
+						<title>Download</title>
+					</download>
+				</sub>
+			</webstart-light>
+			<process-renicer>
+				<title>ProcessRenicer</title>
+				<sub>
+					<overview>
+						<title>Overview</title>
+					</overview>
+					<download>
+						<title>Download</title>
+					</download>
+				</sub>
+			</process-renicer>
+			<host-manager>
+				<title>Host Manager</title>
+				<sub>
+					<overview>
+						<title>Overview</title>
+					</overview>
+					<download>
+						<title>Download</title>
+					</download>
+				</sub>
+			</host-manager>
+			<console-growl>
+				<title>ConsoleGrowl</title>
+				<sub>
+					<overview>
+						<title>Overview</title>
+					</overview>
+					<download>
+						<title>Download</title>
+					</download>
+				</sub>
+			</console-growl>
+			<update-menu>
+				<title>UpdateMenu</title>
+				<sub>
+					<overview>
+						<title>Overview</title>
+					</overview>
+					<download>
+						<title>Download</title>
+					</download>
+				</sub>
+			</update-menu>
+			<filesystem>
+				<title>FileSystem</title>
+			</filesystem>
+			<hash-widget>
+				<title>Hash Widget</title>
+			</hash-widget>
+		</sub>
+	</freeware>
+	<opensource>
+		<title>OpenSource</title>
+		<sub>
+			<xeos>
+				<title>XEOS</title>
+				<sub>
+					<overview>
+						<title>Overview</title>
+					</overview>
+					<documentation>
+						<title>Documentation</title>
+						<sub>
+							<install>
+								<title>Installation</title>
+							</install>
+							<technical>
+								<title>Technical details</title>
+							</technical>
+							<libc>
+								<title>C library</title>
+							</libc>
+						</sub>
+					</documentation>
+					<download>
+						<title>Download</title>
+					</download>
+				</sub>
+			</xeos>
+			<xsfoundation>
+				<title>XSFoundation</title>
+				<sub>
+					<overview>
+						<title>Overview</title>
+					</overview>
+					<download>
+						<title>Download</title>
+					</download>
+				</sub>
+			</xsfoundation>
+			<opencv-ios>
+				<title>OpenCV - iOS</title>
+				<sub>
+					<overview>
+						<title>Overview</title>
+					</overview>
+					<documentation>
+						<title>Documentation</title>
+						<sub>
+							<tutorial>
+								<title>Tutorial</title>
+							</tutorial>
+						</sub>
+					</documentation>
+					<download>
+						<title>Download</title>
+					</download>
+				</sub>
+			</opencv-ios>
+			<magic-makefile>
+				<title>Magic MakeFile</title>
+				<sub>
+					<overview>
+						<title>Overview</title>
+					</overview>
+					<documentation>
+						<title>Documentation</title>
+						<sub>
+							<tutorial>
+								<title>Tutorial</title>
+							</tutorial>
+							<xcode>
+								<title>XCode integration</title>
+							</xcode>
+							<reference>
+								<title>Reference</title>
+							</reference>
+						</sub>
+					</documentation>
+					<download>
+						<title>Download</title>
+					</download>
+				</sub>
+			</magic-makefile>
+			<mem-debug>
+				<title>MEMDebug</title>
+				<sub>
+					<overview>
+						<title>Overview</title>
+					</overview>
+					<documentation>
+						<title>Documentation</title>
+						<sub>
+							<tutorial>
+								<title>Tutorial</title>
+							</tutorial>
+						</sub>
+					</documentation>
+					<download>
+						<title>Download</title>
+					</download>
+				</sub>
+			</mem-debug>
+			<libobjc-log>
+				<title>Obj-C Extended Log</title>
+				<sub>
+					<overview>
+						<title>Overview</title>
+					</overview>
+					<download>
+						<title>Download</title>
+					</download>
+				</sub>
+			</libobjc-log>
+			<egpack>
+				<title>EGPack</title>
+				<sub>
+					<overview>
+						<title>Overview</title>
+					</overview>
+					<format>
+						<title>File format</title>
+					</format>
+					<download>
+						<title>Download</title>
+					</download>
+				</sub>
+			</egpack>
+			<hexprint>
+				<title>HexPrint</title>
+				<sub>
+					<overview>
+						<title>Overview</title>
+					</overview>
+					<download>
+						<title>Download</title>
+					</download>
+				</sub>
+			</hexprint>
+			<svn-util>
+				<title>SVN-Util</title>
+				<sub>
+					<overview>
+						<title>Overview</title>
+					</overview>
+					<download>
+						<title>Download</title>
+					</download>
+				</sub>
+			</svn-util>
+			<bin-build>
+				<title>Bin-Build</title>
+				<sub>
+					<overview>
+						<title>Overview</title>
+					</overview>
+					<download>
+						<title>Download</title>
+					</download>
+				</sub>
+			</bin-build>
+			<braindead>
+				<title>BrainDead</title>
+				<sub>
+					<overview>
+						<title>Overview</title>
+					</overview>
+					<examples>
+						<title>BrainFuck examples</title>
+					</examples>
+					<download>
+						<title>Download</title>
+					</download>
+				</sub>
+			</braindead>
+			<licenses sitemap="no">
+				<title>OpenSource licenses</title>
+				<sub>
+					<bsd hidden="yes">
+						<title>BSD License</title>
+					</bsd>
+					<boost hidden="yes">
+						<title>Boost License</title>
+					</boost>
+					<gnu-gpl-2 hidden="yes">
+						<title>GNU General Public License (2)</title>
+					</gnu-gpl-2>
+					<gnu-fdl hidden="yes">
+						<title>GNU Free Documentation License</title>
+					</gnu-fdl>
+				</sub>
+			</licenses>
+		</sub>
+	</opensource>
+	<services>
+		<title>Services</title>
+	</services>
+	<articles>
+		<title>Articles</title>
+		<sub>
+			<calling-conventions hidden="yes" sitemap="no">
+				<title>Calling conventions</title>
+			</calling-conventions>
+			<c-refcount hidden="yes" sitemap="no">
+				<title>Reference counting in ANSI-C</title>
+			</c-refcount>
+			<gdb-tutorial hidden="yes" sitemap="no">
+				<title>GDB tutorial</title>
+			</gdb-tutorial>
+			<iokit-idle hidden="yes" sitemap="no">
+				<title>Detecting idle time and activity with I/O Kit</title>
+			</iokit-idle>
+			<xcode-static-libraries hidden="yes" sitemap="no">
+				<title>Using static libraries with XCode</title>
+			</xcode-static-libraries>
+			<bool hidden="yes" sitemap="no">
+				<title>Using boolean data-types with ANSI-C</title>
+			</bool>
+			<objc-quizz hidden="yes" sitemap="no">
+				<title>C &amp; Objective-C quiz</title>
+				<sub>
+					<take hidden="yes" sitemap="no">
+						<title></title>
+					</take>
+				</sub>
+			</objc-quizz>
+			<objc-blocks hidden="yes">
+				<title>Closure and lambda in Objective-C</title>
+			</objc-blocks>
+			<cocoa-delegate-chain hidden="yes" sitemap="no">
+				<title>Cocoa: Delegate chain system</title>
+			</cocoa-delegate-chain>
+			<float hidden="yes" sitemap="no">
+				<title>Understanding floats</title>
+			</float>
+		</sub>
+	</articles>
+	<!--
+	<support>
+		<title>Support</title>
+		<sub>
+			<discussions sitemap="no">
+				<title>Public discussions</title>
+			</discussions>
+		</sub>
+	</support>
+	-->
+	<contact>
+		<title>About / Contact</title>
+	</contact>
+	<blog>
+		<title>Blog</title>
+	</blog>
+	<legal hidden="yes">
+		<title>Legal</title>
+		<sub>
+			<privacy hidden="yes">
+				<title>Privacy Policy</title>
+			</privacy>
+			<credits hidden="yes">
+				<title>Credits &amp; Disclaimer</title>
+			</credits>
+		</sub>
+	</legal>
+	<rss hidden="yes">
+		<title>RSS feeds</title>
+		<sub>
+			<articles hidden="yes">
+				<title>Latest articles</title>
+			</articles>
+			<discussions hidden="yes">
+				<title>Public discussions</title>
+			</discussions>
+		</sub>
+	</rss>
+	<search hidden="yes" sitemap="no">
+		<title>Search</title>
+	</search>
+	<download hidden="yes" sitemap="no">
+		<title>Download</title>
+	</download>
+</menu>

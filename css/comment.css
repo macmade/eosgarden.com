@@ -1,0 +1,86 @@
+/* <![CDATA[ */
+
+/*
+##################################################
+#                                                #
+#       Blood Sweat & Code (& Rock'N'Roll)       #
+#      Thanx for looking at the source code      #
+#                                                #
+#                eosgarden © 2010                #
+#                                                #
+##################################################
+*/
+
+#content .Eos_Comment_List_View DIV,
+#content .Eos_Comment_Create_View DIV {
+    margin:                 0px;
+    padding:                0px;
+}
+
+#content .Eos_Comment_Create_View .comment-field {
+    overflow:               hidden;
+    height:                 100%;
+}
+
+#content .Eos_Comment_Create_View .comment-field DIV {
+    float:                  left;
+    margin-top:             10px;
+}
+
+#content .Eos_Comment_Create_View .comment-field .comment-field-label {
+    width:                  150px;
+}
+
+#content .Eos_Comment_Create_View .comment-field-submit {
+    padding-left:           150px;
+}
+
+#content .Eos_Comment_Create_View .comment-field-error {
+    margin-left:            150px;
+    margin-top:             0px;
+    margin-bottom:          10px;
+    color:                  #FF0000;
+    font-size:              12px;
+}
+
+#content .Eos_Comment_List_View .comment-list {
+    border-top:             solid 1px #E1E1E1;
+}
+
+#content .Eos_Comment_List_View .comment-odd,
+#content .Eos_Comment_List_View .comment-even {
+    border-left:            solid 1px #E1E1E1;
+    border-right:           solid 1px #E1E1E1;
+    border-bottom:          solid 1px #E1E1E1;
+    padding:                10px;
+    margin-top:             0px;
+    margin-bottom:          0px;
+    overflow:               hidden;
+    height:                 100%;
+}
+
+#content .Eos_Comment_List_View .comment-odd {
+    background-color:       #F0F7FC;
+}
+
+#content .Eos_Comment_List_View .comment-author,
+#content .Eos_Comment_List_View .comment-date {
+    color:                  #999999;
+    font-size:              12px;
+}
+
+#content .Eos_Comment_List_View .comment-author {
+    margin-top:             10px;
+}
+
+#content .Eos_Comment_List_View .comment-date {
+    margin-bottom:          10px;
+}
+
+#content .Eos_Comment_List_View .comment-delete {
+    text-align:             right;
+    margin-top:             10px;
+    font-size:              10px;
+}
+
+/* ]]> */

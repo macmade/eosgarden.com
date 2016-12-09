@@ -1,0 +1,382 @@
+/* <![CDATA[ */
+
+/*
+##################################################
+#                                                #
+#       Blood Sweat & Code (& Rock'N'Roll)       #
+#      Thanx for looking at the source code      #
+#                                                #
+#                eosgarden © 2010                #
+#                                                #
+##################################################
+*/
+
+DIV.forum DIV {
+    margin:                 0px;
+    padding:                0px;
+}
+
+DIV.forum .exception, DIV.forum .error {
+    padding:                10px;
+    font-size:              12px;
+    text-align:             left;
+    background-color:       #FFCDCD;
+    border-left:            solid 1px #FFE6E6;
+    border-left:            solid 1px #FFE6E6;
+    border-right:           solid 1px #E5B8B8;
+    border-bottom:          solid 1px #E5B8B8;
+}
+
+.forum .section-header,
+.forum .category-header,
+.forum .thread-header {
+    margin-top:             20px;
+    background-color:       #E8E8E8;
+    width:                  805px;
+    height:                 35px;
+    overflow:               hidden;
+    background-image:       url( "pictures/forum/header.png" );
+    background-repeat:      no-repeat;
+    overflow:               hidden;
+}
+
+.forum .section-header H3,
+.forum .category-header H3,
+.forum .thread-header H3 {
+    margin-left:            50px;
+    margin-top:             12px;
+    margin-right:           0px;
+    margin-bottom:          0px;
+    padding:                0px;
+    font-size:              15px;
+}
+
+.forum H4 {
+    margin:                 0px;
+    padding:                0px;
+}
+
+.forum H4 A,
+.forum H4 A:link {
+    color:                  #333333;
+}
+
+.forum .category-description A,
+.forum .category-description A:link,
+.forum .thread-description A,
+.forum .thread-description A:link,
+.forum .post-description A,
+.forum .post-description A:link {
+    color:                  #333333;
+}
+
+.forum .category-odd,
+.forum .category-even,
+.forum .thread-odd,
+.forum .thread-even,
+.forum .post-odd,
+.forum .post-even {
+    border-left:            solid 1px #E1E1E1;
+    border-right:           solid 1px #E1E1E1;
+    border-bottom:          solid 1px #E1E1E1;
+    padding:                10px;
+    margin-top:             0px;
+    margin-bottom:          0px;
+    overflow:               hidden;
+    height:                 100%;
+}
+
+.forum .category-odd,
+.forum .thread-odd,
+.forum .post-odd {
+    background-color:       #F0F7FC;
+}
+
+.forum .Eos_Forum_Section_View .category-odd DIV,
+.forum .Eos_Forum_Section_View .category-even DIV,
+.forum .Eos_Forum_Section_View .thread-odd DIV,
+.forum .Eos_Forum_Section_View .thread-even DIV {
+    float:                  left;
+    margin-right:           20px;
+}
+
+.forum .Eos_Forum_Section_View .category-name,
+.forum .Eos_Forum_Section_View .thread-title {
+    width:                  150px;
+}
+
+.forum .category-description DIV,
+.forum .thread-description DIV {
+    float:                  none;
+}
+
+.forum .Eos_Forum_Section_View .category-description,
+.forum .Eos_Forum_Section_View .thread-description {
+    width:                  450px;
+}
+
+.forum .category-description,
+.forum .thread-description,
+.forum .post-description {
+    font-size:              12px;
+}
+
+.forum .thread-details .thread-author,
+.forum .thread-details .thread-date,
+.forum .thread-details .thread-replies,
+.forum .post-details .post-author,
+.forum .post-details .post-date,
+.forum .post-details .post-replies {
+    color:                  #999999;
+    font-size:              12px;
+}
+
+.forum .Eos_Forum_Category_View .thread-details .thread-author {
+    margin-top:             10px;
+}
+
+.forum .Eos_Forum_Category_View .thread-details .thread-replies {
+    margin-bottom:          10px;
+}
+
+.forum .Eos_Forum_Thread_View .post-details .post-author,
+.forum .Eos_Forum_Search_View .post-details .post-author {
+    margin-top:             10px;
+}
+
+.forum .Eos_Forum_Thread_View .post-details .post-date,
+.forum .Eos_Forum_Search_View .post-details .post-date {
+    margin-bottom:          10px;
+}
+
+.forum .category-details {
+    padding-left:           30px;
+    padding-top:            5px;
+    font-size:              12px;
+    background-image:       url( "pictures/forum/details-count.png" );
+    background-repeat:      no-repeat;
+    background-color:       #FFFFFF;
+    border:                 solid 1px #E1E1E1;
+    color:                  #7992B9;
+    width:                  90px;
+    height:                 45px;
+    overflow:               hidden;
+}
+
+.forum .forum-pagination {
+    margin-top:             10px;
+    height:                 100%;
+    overflow:               hidden;
+}
+
+.forum .forum-pagination .forum-prevNext {
+    float:                  left;
+    width:                  150px;
+}
+
+.forum .forum-pagination .forum-prevNext SPAN {
+    margin-right:           5px;
+}
+
+.forum .forum-pagination .forum-pages {
+    float:                  right;
+    height:                 100%;
+    overflow:               hidden;
+}
+
+.forum .forum-pagination .forum-pages UL {
+    height:                 100%;
+    overflow:               hidden;
+    margin:                 0px;
+    padding:                0px;
+    list-style:             none;
+}
+
+.forum .forum-pagination .forum-pages LI {
+    float:                  left;
+    margin-left:            5px;
+    margin-top:             0px;
+    margin-right:           0px;
+    margin-bottom:          0px;
+    padding:                0px;
+}
+
+.forum .forum-connection-status {
+    text-align:             right;
+    font-size:              10px;
+}
+
+.forum .forum-login {
+    margin-top:             20px;
+    padding:                20px;
+    border:                 solid 1px #E1E1E1;
+    background-color:       #F8F8F8;
+}
+
+.forum .forum-login-fields {
+    height:                 100%;
+    overflow:               hidden;
+}
+
+.forum .forum-login-fields .forum-login-username,
+.forum .forum-login-fields .forum-login-password,
+.forum .forum-login-fields .forum-login-submit {
+    float:                  left;
+    margin-right:           20px;
+}
+
+.forum .forum-login-fields .forum-login-username INPUT {
+    background-image:       url( "pictures/text-input-background.png" );
+    background-repeat:      repeat-x;
+}
+
+.forum .forum-login-fields .forum-login-password INPUT {
+    background-image:       url( "pictures/text-input-background.png" );
+    background-repeat:      repeat-x;
+}
+
+.forum .forum-login-fields .forum-login-submit INPUT {
+    width:                  150px;
+    height:                 30px;
+    text-align:             center;
+    background-image:       url( "pictures/form-submit-background.png" );
+    background-repeat:      no-repeat;
+    border:                 none;
+    padding:                0px;
+}
+
+.forum .forum-login-fields .forum-login-submit {
+    margin-top:             20px;
+}
+
+.forum .forum-field {
+    overflow:               hidden;
+    height:                 100%;
+}
+
+.forum .forum-field DIV {
+    float:                  left;
+    margin-top:             10px;
+}
+
+.forum .forum-field .forum-field-label {
+    width:                  150px;
+}
+
+.forum .forum-field-lastname,
+.forum .forum-field-password,
+.forum .forum-field-www,
+.forum .forum-field-show_full_name {
+    padding-bottom:         30px;
+    border-bottom:          solid 1px #E1E1E1;
+    margin-bottom:          20px;;
+}
+
+.forum .Eos_Forum_Register_View .forum-field-show_full_name,
+.forum .Eos_Forum_Register_View .forum-field-submit,
+.forum .Eos_Forum_Thread_Create_View .forum-field-submit{
+    padding-left:           150px;
+}
+
+.forum .forum-field-error {
+    margin-left:            150px;
+    margin-top:             0px;
+    margin-bottom:          10px;
+    color:                  #FF0000;
+    font-size:              12px;
+}
+
+.forum .Eos_Forum_Thread_Reply_View H4,
+.forum .Eos_Forum_Thread_Reply_View .forum-reply-confirm {
+    margin-top:             20px;
+}
+
+.forum .forum-no-thread {
+    text-align:             center;
+    border-left:            solid 1px #E1E1E1;
+    border-right:           solid 1px #E1E1E1;
+    border-bottom:          solid 1px #E1E1E1;
+    padding:                50px;
+    margin-top:             0px;
+    margin-bottom:          0px;
+    background-color:       #F8F8F8;
+}
+
+.forum .forum-thread-create-link {
+    text-align:             right;
+    margin-top:             10px;
+}
+
+.forum .forum-searchbox {
+    height:                 100%;
+    overflow:               hidden;
+    padding-top:            10px;
+    padding-bottom:         10px;
+    margin-top:             20px;
+    margin-bottom:          20px;
+    border:                 solid 1px #E1E1E1;
+    background-color:       #F8F8F8;
+}
+
+.forum .forum-searchbox-input,
+.forum .forum-searchbox-submit {
+    float:                  left;
+    padding-left:           10px;
+}
+
+INPUT#forum-field-submit {
+    width:                  150px;
+    height:                 30px;
+    text-align:             center;
+    background-image:       url( "pictures/form-submit-background.png" );
+    background-repeat:      no-repeat;
+    border:                 none;
+    padding:                0px;
+}
+
+.forum-field-title INPUT,
+.forum-field-message TEXTAREA,
+.forum-field-firstname INPUT,
+.forum-field-lastname INPUT,
+.forum-field-username INPUT,
+.forum-field-password INPUT,
+.forum-field-email INPUT,
+.forum-field-company INPUT,
+.forum-field-www INPUT {
+    background-image:       url( "pictures/text-input-background.png" );
+    background-repeat:      repeat-x;
+}
+
+INPUT#forum-search-word {
+    background-image:       url( "pictures/text-input-background.png" );
+    background-repeat:      repeat-x;
+}
+
+.forum .forum-searchbox-input LABEL {
+    margin-right:           10px;
+    font-size:              12px;
+}
+
+.forum .forum-search-results {
+    border-top:             solid 1px #E1E1E1;
+}
+
+.forum .forum-searchbox-submit INPUT {
+    width:                  150px;
+    height:                 30px;
+    text-align:             center;
+    background-image:       url( "pictures/form-submit-background.png" );
+    background-repeat:      no-repeat;
+    border:                 none;
+    padding:                0px;
+}
+
+.forum .forum-thread-delete,
+.forum .forum-post-delete {
+    text-align:             right;
+    margin-top:             10px;
+    font-size:              10px;
+}
+
+/* ]]> */
+

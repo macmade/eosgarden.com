@@ -1,0 +1,460 @@
+/* <![CDATA[ */
+
+/*
+##################################################
+#                                                #
+#       Blood Sweat & Code (& Rock'N'Roll)       #
+#      Thanx for looking at the source code      #
+#                                                #
+#                eosgarden © 2010                #
+#                                                #
+##################################################
+*/
+
+BODY {
+    margin:                 0px;
+    color:                  #333333;
+    font-style:             normal;
+    font-weight:            normal;
+    font-size:              14px;
+    line-height:            20px;
+    text-decoration:        none;
+    font-family:            "Myriad Pro", Myriad, Arial, Helvetica, Verdana, Geneva, Swiss, SunSans-Regular, sans-serif;
+    background-color:       #F8F8F8;
+}
+
+H1 {
+    color:                  #000000;
+    font-style:             normal;
+    font-weight:            normal;
+    font-size:              40px;
+    line-height:            normal;
+    margin-top:             0px;
+    margin-bottom:          0px;
+    padding-top:            10px;
+    padding-bottom:         10px;
+    text-align:             left;
+}
+
+H2 {
+    color:                  #000000;
+    font-style:             normal;
+    font-weight:            normal;
+    font-size:              30px;
+    line-height:            normal;
+    margin-top:             0px;
+    margin-bottom:          0px;
+    padding-top:            10px;
+    padding-bottom:         10px;
+    text-align:             left;
+}
+
+H3 {
+    color:                  #000000;
+    font-style:             normal;
+    font-weight:            normal;
+    font-size:              20px;
+    line-height:            normal;
+    margin-top:             0px;
+    margin-bottom:          0px;
+    padding-top:            10px;
+    padding-bottom:         10px;
+    text-align:             left;
+}
+
+H4 {
+    color:                  #000000;
+    font-style:             normal;
+    font-weight:            normal;
+    font-size:              18px;
+    line-height:            normal;
+    margin-top:             0px;
+    margin-bottom:          0px;
+    padding-top:            10px;
+    padding-bottom:         10px;
+    text-align:             left;
+}
+
+H5 {
+    color:                  #000000;
+    font-style:             normal;
+    font-weight:            normal;
+    font-size:              16px;
+    line-height:            normal;
+    margin-top:             0px;
+    margin-bottom:          0px;
+    padding-top:            10px;
+    padding-bottom:         10px;
+    text-align:             left;
+}
+
+H6 {
+    color:                  #000000;
+    font-style:             normal;
+    font-weight:            normal;
+    font-size:              14px;
+    line-height:            normal;
+    margin-top:             0px;
+    margin-bottom:          0px;
+    padding-top:            10px;
+    padding-bottom:         10px;
+    text-align:             left;
+}
+
+A {
+    text-decoration:        none;
+}
+
+A:link {
+    color:                  #00AAFF;
+    font-weight:            normal;
+    text-decoration:        none;
+}
+
+A:visited {
+    color:                  #00AAFF;
+    font-weight:            normal;
+    text-decoration:        none;
+}
+
+A:hover {
+    color:                  #00AAFF;
+    font-weight:            normal;
+    text-decoration:        underline;
+}
+
+A:active {
+    color:                  #00AAFF;
+    font-weight:            normal;
+    text-decoration:        underline;
+}
+
+IMG {
+    border:                 none;
+}
+
+INPUT {
+    background-color:       #FFFFFF;
+    border:                 solid 1px #E8E8E8;
+    padding:                5px;
+}
+
+TEXTAREA {
+    background-color:       #FFFFFF;
+    border:                 solid 1px #E8E8E8;
+    padding:                5px;
+}
+
+HR {
+    height:                 1px;
+    border:                 none;
+    border-top:             solid 1px #E8E8E8;
+}
+
+TABLE {
+    border:                 solid 1px #E8E8E8;
+    border-collapse:        collapse;
+    width:                  100%;
+    margin-top:             14px;
+    margin-bottom:          14px;
+}
+
+TH {
+    border:                 solid 1px #E8E8E8;
+    padding:                5px;
+    background-color:       #F1F8FF;
+    color:                  inherit;
+    text-align:             center;
+}
+
+TD {
+    border:                 solid 1px #E8E8E8;
+    padding:                5px;
+    text-align:             center;
+}
+
+TD.alt {
+    background-color:       #F8F8F8;
+}
+
+UL.space LI, OL.space LI {
+    padding-top:            10px;
+    padding-bottom:         10px;
+}
+
+.img-right IMG {
+    float:                  right;
+    margin-left:            35px;
+}
+
+.img-left IMG {
+    float:                  left;
+    margin-right:           35px;
+}
+
+.center {
+    text-align:             center;
+}
+
+.power {
+    vertical-align:         super;
+}
+
+.uppercase {
+    text-transform:         uppercase;
+}
+
+.small {
+    font-size:              12px;
+}
+
+.red {
+    color:                  #AA0000;
+}
+
+.grey {
+    color:                  #999999;
+}
+
+.italic {
+    font-style:             italic;
+}
+
+.big {
+    font-size:              20px;
+}
+
+.clearer {
+    clear:                  both;
+}
+
+.left {
+    float:                  left;
+}
+
+.right {
+    float:                  right;
+}
+
+.table {
+    display:                table;
+}
+
+.table-row {
+    display:                table-row;
+}
+
+.table-col {
+    display:                table-cell;
+    padding:                20px;
+    border:                 solid 1px #E8E8E8;
+}
+
+.table-col DIV {
+    font-size:              12px;
+    text-align:             left;
+}
+
+#fancy_title TABLE {
+    border:                 none;
+}
+
+TD.fancy_title {
+    border:                 none;
+}
+
+CODE.source {
+    white-space:            pre;
+}
+
+DIV.code {
+    border-top:             solid 1px #E8E8E8;
+    border-right:           solid 1px #E8E8E8;
+    border-bottom:          solid 1px #E8E8E8;
+    background-image:       url( "pictures/code-background.png" );
+    background-repeat:      repeat-y;
+    padding-left:           30px;
+    padding-top:            10px;
+    padding-right:          10px;
+    padding-bottom:         10px;
+    font-size:              12px;
+    line-height:            12px;
+    margin-bottom:          10px;
+    overflow:               auto;
+}
+
+.code-comment {
+    color:                  #7F7F7F;
+    background-color:       inherit;
+}
+
+.code-keyword {
+    color:                  #007FFF;
+    background-color:       inherit;
+}
+
+.code-predefined {
+    color:                  #00327F;
+    background-color:       inherit;
+}
+
+.code-string {
+    color:                  #FF7F7F;
+    background-color:       inherit;
+}
+
+.code-ctag {
+    color:                  #7F007F;
+    background-color:       inherit;
+}
+
+.icon-contact {
+    padding-left:           40px;
+    background-image:       url( "pictures/web-injection-pack/32/contact.png" );
+    background-repeat:      no-repeat;
+}
+
+.icon-pencil {
+    padding-left:           40px;
+    background-image:       url( "pictures/web-injection-pack/32/pencil.png" );
+    background-repeat:      no-repeat;
+}
+
+.icon-blueprint-tool {
+    padding-left:           40px;
+    background-image:       url( "pictures/web-injection-pack/32/blueprint-tool.png" );
+    background-repeat:      no-repeat;
+}
+
+.icon-webstart {
+    padding-left:           40px;
+    background-image:       url( "pictures/icons/32/webstart.png" );
+    background-repeat:      no-repeat;
+}
+
+.icon-webstart-light {
+    padding-left:           40px;
+    background-image:       url( "pictures/icons/32/webstart-light.png" );
+    background-repeat:      no-repeat;
+}
+
+.icon-filesystem {
+    padding-left:           40px;
+    background-image:       url( "pictures/icons/32/filesystem.png" );
+    background-repeat:      no-repeat;
+}
+
+.icon-propedit {
+    padding-left:           40px;
+    background-image:       url( "pictures/icons/32/propedit.png" );
+    background-repeat:      no-repeat;
+}
+
+.icon-console-growl {
+    padding-left:           40px;
+    background-image:       url( "pictures/icons/32/console-growl.png" );
+    background-repeat:      no-repeat;
+}
+
+.icon-process-renicer {
+    padding-left:           40px;
+    background-image:       url( "pictures/icons/32/process-renicer.png" );
+    background-repeat:      no-repeat;
+}
+
+.icon-update-menu {
+    padding-left:           40px;
+    background-image:       url( "pictures/icons/32/update-menu.png" );
+    background-repeat:      no-repeat;
+}
+
+.icon-host-manager {
+    padding-left:           40px;
+    background-image:       url( "pictures/icons/32/host-manager.png" );
+    background-repeat:      no-repeat;
+}
+
+.icon-manual {
+    padding-left:           40px;
+    background-image:       url( "pictures/icons/32/manual.png" );
+    background-repeat:      no-repeat;
+}
+
+.icon-autopurge {
+    padding-left:           40px;
+    background-image:       url( "pictures/icons/32/autopurge.png" );
+    background-repeat:      no-repeat;
+}
+
+.icon-application-state-cleaner {
+    padding-left:           40px;
+    background-image:       url( "pictures/icons/32/application-state-cleaner.png" );
+    background-repeat:      no-repeat;
+}
+
+.icon-software-update {
+    padding-left:           40px;
+    background-image:       url( "pictures/icons/32/software-update.png" );
+    background-repeat:      no-repeat;
+}
+
+.icon-widget {
+    padding-left:           40px;
+    background-image:       url( "pictures/icons/32/widget.png" );
+    background-repeat:      no-repeat;
+}
+
+UL.filesystem {
+    margin:                 0px;
+    padding:                0px;
+    list-style-type:        none;
+    font-size:              12px;
+}
+
+UL.filesystem LI.directory {
+    background-image:       url( "pictures/icons/16/directory-generic.png" );
+    background-repeat:      no-repeat;
+    padding-left:           20px;
+    min-height:             20px;
+}
+
+UL.filesystem LI.file {
+    background-image:       url( "pictures/icons/16/file-generic.png" );
+    background-repeat:      no-repeat;
+    padding-left:           20px;
+    min-height:             20px;
+}
+
+UL.filesystem LI DIV {
+    padding-top:            0px;
+    padding-bottom:         0px;
+}
+
+DIV.download {
+    padding-left:           25px;
+    background-image:       url( "pictures/icons/16/download.png" );
+    background-repeat:      no-repeat;
+    background-position:    0px 10px;
+}
+
+DIV.download SPAN.grey {
+    font-size:              12px;
+}
+
+INPUT.form-submit {
+    width:                  150px;
+    height:                 30px;
+    text-align:             center;
+    background-image:       url( "pictures/form-submit-background.png" );
+    background-repeat:      no-repeat;
+    border:                 none;
+    padding:                0px;
+}
+
+DIV.macupdate-badge {
+    height:                 41px;
+    overflow:               hidden;
+}
+
+/* ]]> */
+

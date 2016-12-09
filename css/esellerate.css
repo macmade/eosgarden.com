@@ -1,0 +1,148 @@
+/* <![CDATA[ */
+
+/*
+##################################################
+#                                                #
+#       Blood Sweat & Code (& Rock'N'Roll)       #
+#      Thanx for looking at the source code      #
+#                                                #
+#                eosgarden © 2010                #
+#                                                #
+##################################################
+*/
+
+@import url( "base.css" );
+
+BODY {
+    width:                  905px;
+    margin-left:            auto;
+    margin-right:           auto;
+}
+
+SPAN.error {
+    display:                block;
+    background-color:       #FF9999;
+    border:                 solid 1px #FF000;
+    padding:                10px;
+    text-align:             center;
+    border-radius:          10px;
+    -webkit-border-radius:  10px;
+    -moz-border-radius:     10px;
+    font-weight:            bold;
+    margin-top:             10px;
+    margin-bottom:          10px;
+}
+
+DIV#navig {
+    width:                  905px;
+    height:                 30px;
+    margin-left:            2px;
+    margin-right:           2px;
+    margin-bottom:          10px;
+    overflow:               hidden;
+    background-image:       url( "pictures/menu-background.png" );
+}
+
+DIV#navig DIV.menu-start {
+    width:                  50px;
+    height:                 30px;
+    float:                  left;
+    background-image:       url( "pictures/menu-background-left.png" );
+    background-repeat:      no-repeat;
+}
+
+DIV#navig DIV.menu-end {
+    width:                  50px;
+    height:                 30px;
+    float:                  left;
+    background-image:       url( "pictures/menu-background-right.png" );
+    background-repeat:      no-repeat;
+}
+
+DIV#navig UL {
+    width:                  805px;
+    height:                 30px;
+    overflow:               hidden;
+    margin:                 0px;
+    padding:                0px;
+    list-style:             none;
+    float:                  left;
+}
+
+DIV#navig LI {
+    float:                  left;
+    width:                  100px;
+    height:                 30px;
+    margin:                 0px;
+    padding:                0px;
+    text-align:             center;
+    font-variant:           small-caps;
+    font-size:              15px;
+    color:                  #333333;
+    background-image:       url( "pictures/menu-background.png" );
+    list-style:             none;
+}
+
+DIV#navig LI.act {
+    background-image:       url( "pictures/menu-background-act.png" );
+}
+
+DIV#navig LI A {
+    color:                  #333333;
+    display:                block;
+    width:                  100px;
+    height:                 25px;
+    padding-top:            5px;
+}
+
+DIV#navig LI.act A {
+    color:                  #FFFFFF;
+}
+
+DIV#navig LI A:hover {
+    text-decoration:        none;
+    background-image:       url( "pictures/menu-background-hover.png" );
+}
+
+DIV#navig LI.act A:hover {
+    background-image:       url( "pictures/menu-background-act.png" );
+}
+
+DIV#footer {
+    font-size:              10px;
+    margin-bottom:          10px;
+}
+
+DIV#footer DIV.logos {
+    clear:                  both;
+    text-align:             right;
+    margin-top:             10px;
+}
+
+INPUT.inputSubmit {
+    width:                  150px;
+    height:                 30px;
+    text-align:             center;
+    background-image:       url( "pictures/form-submit-background.png" );
+    background-repeat:      no-repeat;
+    border:                 none;
+    padding:                0px;
+}
+
+TD {
+    text-align:             justify;
+    background-color:       #FFFFFF;
+    padding:                10px;
+}
+
+TD DIV {
+    margin-bottom:          20px;
+}
+
+DIV.floater {
+    overflow:               hidden;
+    height:                 100%;
+}
+
+/* ]]> */
+

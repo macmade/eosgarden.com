@@ -1,0 +1,34 @@
+RewriteEngine On
+
+# WebStart Updates - Amazon S3
+RewriteRule ^(downloads/updates/webstart.*.pkg)$ /s3.php?download=$1 [R,L]
+
+# Updates
+RewriteRule ^downloads/updates - [L]
+
+# Downloads
+RewriteRule ^downloads/(software/.*)$ /en/download/?download=$1 [R,L]
+RewriteRule ^downloads/(opensource/.*)$ /en/download/?download=$1 [R,L]
+
+# Hosts
+RewriteCond %{HTTP_HOST} ^eosgarden\.com
+RewriteRule ^(.*)$ http://www.eosgarden.com/$1 [R=permanent,L]
+RewriteCond %{HTTP_HOST} ^(www.)?macmade\.[^/]
+RewriteRule ^(.*)$ http://www.eosgarden.com/$1 [R,L]
+RewriteCond %{HTTP_HOST} ^(www.)?noxeos\.[^/]
+RewriteRule ^(.*)$ http://www.eosgarden.com/$1 [R,L]
+RewriteCond %{HTTP_HOST} ^(www.)?citricfrog\.[^/]
+RewriteRule ^(.*)$ http://www.eosgarden.com/$1 [R,L]
+RewriteCond %{HTTP_HOST} ^(www.)?phpsoe\.[^/]
+RewriteRule ^(.*)$ http://www.eosgarden.com/$1 [R,L]
+RewriteCond %{HTTP_HOST} ^(www.)?soegarden\.[^/]
+RewriteRule ^(.*)$ http://www.eosgarden.com/$1 [R,L]
+
+# Main
+RewriteRule ^doxygen/.*$ - [L]
+RewriteRule ^fever/.*$ - [L]
+RewriteRule ^stats/.*$ - [L]
+RewriteRule .*/index.php /index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule .* /index.php

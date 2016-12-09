@@ -1,0 +1,119 @@
+/* <![CDATA[ */
+
+/*
+##################################################
+#                                                #
+#       Blood Sweat & Code (& Rock'N'Roll)       #
+#      Thanx for looking at the source code      #
+#                                                #
+#                eosgarden © 2010                #
+#                                                #
+##################################################
+*/
+
+.exam .submit INPUT {
+    width:                  150px;
+    height:                 30px;
+    text-align:             center;
+    background-image:       url( "pictures/form-submit-background.png" );
+    background-repeat:      no-repeat;
+    border:                 none;
+    padding:                0px;
+}
+
+.exam H3 SPAN {
+    color:                  #00AAFF;
+}
+
+.exam .choice-odd,
+.exam .choice-even,
+.exam .choice-odd-success,
+.exam .choice-even-success,
+.exam .choice-selected {
+    padding-left:           10px;
+}
+
+.exam .choice-odd,
+.exam .choice-odd-success {
+    background-color:       #F0F7FC;
+}
+
+.exam .choice-selected {
+    background-color:       #FFFBE6;
+}
+
+.score {
+    background-color:       #F0F7FC;
+}
+
+.score H3 {
+    font-size:              60px;
+    padding-bottom:         0px;
+    margin-bottom:          0px;
+    text-align:             center;
+    color:                  #000000;
+}
+
+.score H3 SPAN {
+    color:                  #00AAFF;
+    font-weight:            bold;
+    font-size:              120px;
+}
+
+.score .share-twitter {
+    text-align:             center;
+}
+
+.exam H4 {
+    margin-top:             20px;
+}
+
+.exam .details .detail {
+    margin-bottom:          10px;
+    border-bottom:          solid 1px #EDEDED;
+}
+
+.exam .details H5 {
+    font-size:              25px;
+}
+
+.exam .details .detail .choice-odd,
+.exam .details .detail .choice-even,
+.exam .details .detail .choice-odd-success,
+.exam .details .detail .choice-even-success {
+    padding-left:           30px;
+}
+
+.exam .details .detail .choice-odd-success {
+    background-image:       url( 'pictures/icons/16/tick-odd.png' );
+    background-repeat:      no-repeat;
+    background-position:    5px 10px;
+}
+
+.exam .details .detail .choice-even-success {
+    background-image:       url( 'pictures/icons/16/tick.png' );
+    background-repeat:      no-repeat;
+    background-position:    5px 10px;
+}
+
+.exam .details .detail H6 {
+    font-weight:            bold;
+}
+
+.exam .explaination {
+    margin-top:             10px;
+    border-left:            solid 1px #FFFDEE;
+    border-top:             solid 1px #FFFDEE;
+    border-right:           solid 1px #FFF6A4;
+    border-bottom:          solid 1px #FFF6A4;
+    padding:                10px;
+    background-color:       #FFFACD;
+}
+
+.exam .explaination DIV {
+    padding:                0px;
+    margin:                 0px;
+}
+
+/* ]]> */
+
