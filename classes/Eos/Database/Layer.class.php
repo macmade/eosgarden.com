@@ -35,9 +35,9 @@ final class Eos_Database_Layer
 {
     CONST DB_DRIVER    = 'mysql';
     CONST DB_HOST      = 'localhost';
-    CONST DB_USER      = 'c0_eosgarden';
+    CONST DB_USER      = 'eosgarden';
     CONST DB_PASS      = 'eosgarden';
-    CONST DB_DATABSASE = 'c0_eosgarden';
+    CONST DB_DATABSASE = 'eosgarden';
     
     private static $_instance = NULL;
     private $_tables          = array();
