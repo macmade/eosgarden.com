@@ -11,18 +11,8 @@ RewriteRule ^downloads/(software/.*)$ /en/download/?download=$1 [R,L]
 RewriteRule ^downloads/(opensource/.*)$ /en/download/?download=$1 [R,L]
 
 # Hosts
-RewriteCond %{HTTP_HOST} ^eosgarden\.com
-RewriteRule ^(.*)$ http://www.eosgarden.com/$1 [R=permanent,L]
-RewriteCond %{HTTP_HOST} ^(www.)?macmade\.[^/]
-RewriteRule ^(.*)$ http://www.eosgarden.com/$1 [R,L]
-RewriteCond %{HTTP_HOST} ^(www.)?noxeos\.[^/]
-RewriteRule ^(.*)$ http://www.eosgarden.com/$1 [R,L]
-RewriteCond %{HTTP_HOST} ^(www.)?citricfrog\.[^/]
-RewriteRule ^(.*)$ http://www.eosgarden.com/$1 [R,L]
-RewriteCond %{HTTP_HOST} ^(www.)?phpsoe\.[^/]
-RewriteRule ^(.*)$ http://www.eosgarden.com/$1 [R,L]
-RewriteCond %{HTTP_HOST} ^(www.)?soegarden\.[^/]
-RewriteRule ^(.*)$ http://www.eosgarden.com/$1 [R,L]
+RewriteCond %{HTTP_HOST} ^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+
+RewriteRule (.*) http://eosgarden.com/$1 [R=301,L]
 
 # Main
 RewriteRule ^doxygen/.*$ - [L]
