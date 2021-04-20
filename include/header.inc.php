@@ -11,7 +11,7 @@ if( isset( $_GET[ 'download_file' ] ) )
     {
         header( 'Pragma: public' );
         header( 'Content-type: ' );
-        header(' Expires: 0' );
+        header( 'Expires: 0' );
         header( 'Cache-Control: must-revalidate, post-check=0, pre-check=0' );
         header( 'Content-Type: application/octet-stream' );
         header( 'Content-Disposition: attachment; filename="' .  basename( $download ) . '"' );
